@@ -4,7 +4,7 @@ import numpy as np
 
 st.set_page_config(page_title="Points → Score Calculator", page_icon="🧮", layout="centered")
 
-st.title("🧮 Points → Score Calculator")
+st.title("🧠 Neurbiology Small Tests Points → Score Calculator")
 st.write(
     "Add or edit rows below. Each row is a **got / max** pair. "
     "We'll compute the normalized ratios, their average, and a 0–10 score."
