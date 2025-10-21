@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="Points → Score Calculator", page_icon="🧮", layout="centered")
+st.set_page_config(page_title="Points → Score Calculator", page_icon="🧠", layout="centered")
 
 st.title("🧠 Neurbiology Small Tests Points → Score Calculator")
 st.write(
@@ -25,7 +25,7 @@ default_data = pd.DataFrame({
 })
 
 st.subheader("Input points")
-st.write("Click the **＋** icon at the bottom to add more rows. Double‑click cells to edit.")
+st.write("Click the **＋** icon at the bottom to add more rows. Double‑click cells to edit. Choose rows to delete them.")
 edited = st.data_editor(
     default_data,
     num_rows="dynamic",
