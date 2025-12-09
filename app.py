@@ -20,8 +20,8 @@ with st.sidebar:
 
 # Default example data
 default_data = pd.DataFrame({
-    "got": [11, 11.5, 12, 6, 16.5, 12, 18, 14],
-    "max": [14, 13, 13, 16, 18, 12, 19, 14],
+    "got": [11, 11.5, 12, 6, 16.5, 12, 18, 14, 15.5],
+    "max": [14, 13, 13, 16, 18, 12, 19, 14, 16],
 })
 
 st.subheader("Input points")
